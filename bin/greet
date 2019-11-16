@@ -9,5 +9,5 @@ require_relative "../lib/greeting.rb"
 def greeting(name)
     puts "Hi! I'm #{name}, what's your name?"
     user_name = gets.strip
-    puts "Hello #{name}. It's nice to meet you."
+    puts "Hello #{user_name}. It's nice to meet you."
 end
